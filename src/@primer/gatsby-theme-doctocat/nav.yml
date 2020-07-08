@@ -1,7 +1,7 @@
 - title: Drewry Index
-  url: /page-1
+  url: /index-construction
 - title: Benchmark
   url: /benchmark
   children:
     - title: Futures
-      url: /page-1
+      url: /contract

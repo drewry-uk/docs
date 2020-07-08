@@ -1,6 +1,6 @@
 {
   "name": "drewry-freight-index",
-  "repository": "drewry-uk/index",
+  "repository": "drewry-uk/docs",
   "version": "1.0.0",
   "scripts": {
     "develop": "gatsby develop",
