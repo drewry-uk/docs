@@ -4,8 +4,13 @@ module.exports = {
     shortName: 'Documentation',
     description: 'Composable Benchmark Container Rate Index',
   },
-  plugins: ['@primer/gatsby-theme-doctocat'],
-    resolve: '@primer/gatsby-theme-doctocat',
+  plugins: [
+    {
+      resolve: '@primer/gatsby-theme-doctocat',
       options: {
-        icon: './src/images/icon.png', // This path is relative to the root of the site.
+        repoRootPath: '..', // defaults to '.'
+        icon: './src/images/logo.png', // This path is relative to the root of the site.
+      },
+    },
+  ],
 }
